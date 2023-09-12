@@ -809,3 +809,4 @@ Resources:
             - EIAMPolicyWildcardResource
           ignore_reasons:
             - EIAMPolicyWildcardResource: Intent assumed for initial migration.
+Outputs: {}

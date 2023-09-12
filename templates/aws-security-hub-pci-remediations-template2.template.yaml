@@ -3091,3 +3091,4 @@ Resources:
           ignore_reasons:
             - EIAMPolicyActionWildcard: Intent assumed for initial migration.
             - EIAMPolicyWildcardResource: Intent assumed for initial migration.
+Outputs: {}
