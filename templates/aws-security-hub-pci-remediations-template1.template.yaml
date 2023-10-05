@@ -1,4 +1,4 @@
-Description: AWS Security Hub PCI Remediations Systems Manager Automation Documents and Prerequisites (qs-1ui8pjroi)
+Description: AWS Security Hub PCI Remediations Systems Manager Automation Documents and Prerequisites. (qs-1ui8pjroi)
 AWSTemplateFormatVersion: '2010-09-09'
 Outputs:
   AutomationAssumeRoleArn:
