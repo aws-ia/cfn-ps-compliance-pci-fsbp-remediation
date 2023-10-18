@@ -120,7 +120,7 @@ Parameters:
   QSS3BucketName:
     AllowedPattern: ^[0-9a-zA-Z]+([0-9a-zA-Z-]*[0-9a-zA-Z])*$
     ConstraintDescription: Quick Start bucket name can include numbers, lowercase letters, uppercase letters, and hyphens (-). It cannot start or end with a hyphen (-).
-    Default: aws-ia-us-east-1
+    Default: aws-ia
     Description: S3 bucket name for Quick Start assets. Quick Start bucket name can include numbers, lowercase letters, uppercase letters, and hyphens (-). It cannot start or end with a hyphen (-).
     Type: String
   QSS3BucketRegion:
@@ -138,7 +138,7 @@ Conditions:
   UsingDefaultBucket:
     Fn::Equals:
       - Ref: QSS3BucketName
-      - aws-quickstart
+      - aws-ia
 Resources:
   PCIBucketPolicy:
     Type: AWS::S3::BucketPolicy
